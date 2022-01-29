@@ -1,0 +1,24 @@
+package in.co.sunrays.project4.bean;
+
+
+/**
+ * @author ISHITA
+ *
+ */
+public interface DropdownListBean {
+	
+	  /**
+     * Returns key of list element
+     * 
+     * @return key
+     */
+	public String getKey();
+
+	  /**
+     * display text of list element
+     * 
+     * @return value
+     */
+	public String getValue();
+	
+}
